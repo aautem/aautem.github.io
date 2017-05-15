@@ -1,0 +1,139 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #intro .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #intro .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* MY CUSTOM STYLES */
+
+.name {
+  font-size: 6.5em;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: -5px;
+  text-shadow: -2px -1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  font-size: 1.5em;
+  letter-spacing: 3px;
+}
+
+.personal h6 {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  letter-spacing: 2px;
+}
+
+.personal .tiny {
+  margin-right: 5px;
+}
+
+.about-me p {
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.chip-set {
+  margin-top: -25px;
+}
+
+.chip {
+  padding: 0 15px;
+  margin: 10px 10px;
+}
+
+.card .card-title {
+  font-weight: 400;
+  color: #212121;
+  letter-spacing: 1px;
+  margin: -10px 0 0 -3px;
+}
+
+.card .card-content p {
+  color: #424242;
+  font-size: 1.15em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin-top: -8px;
+}
+
+.card-content li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.card-action {
+  margin-top: -15px;
+}
+
+.footer-copyright {
+  margin-top: -20px;
+}
+
+img:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.bullet {
+  padding: 10px 10px 10px 25px;
+}
+
