@@ -72,7 +72,12 @@ footer.page-footer {
   letter-spacing: 3px;
 }
 
-.personal h6 {
+#nav-mobile {
+  background-color: white;
+}
+
+.personal a {
+  color: white;
   font-size: 1.25em;
   font-weight: 300;
   margin-top: 23px;
@@ -80,8 +85,17 @@ footer.page-footer {
   letter-spacing: 2px;
 }
 
+.personal a:hover {
+  color: #78909c;
+}
+
 .personal .tiny {
   margin-right: 5px;
+}
+
+.personal li {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about-me p {
@@ -97,6 +111,12 @@ footer.page-footer {
 .chip {
   padding: 0 15px;
   margin: 10px 10px;
+}
+
+.chip:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);;
+  background-color: #e0e0e0;
 }
 
 .card .card-title {
@@ -149,20 +169,6 @@ img:hover {
   opacity: 0;
 }
 
-#footer-links {
-  float: right;
-}
-
-#footer-links a {
-  color: #0d47a1;
-  font-weight: 400;
-}
-
-#footer-links a:hover {
-  color: #607d8b;
-  cursor: pointer;
-}
-
 .resume-links h6 {
   display: inline-block;
   font-size: 1.25em;
@@ -210,9 +216,9 @@ img:hover {
 }
 
 .freelance {
+  display: inline-block;
   color: #616161;
   font-size: 0.9em;
-  margin-top: -30px;
   margin-left: 10px;
 }
 
@@ -225,4 +231,20 @@ img:hover {
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.footer-copyright a {
+  color: #0d47a1;
+}
+
+.footer-copyright a:hover {
+  color: #607d8b;
+}
+
+#footer-links {
+  float: right;
+}
+
+#footer-links a {
+  font-weight: 400;
 }
