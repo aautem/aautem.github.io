@@ -133,7 +133,96 @@ img:hover {
   cursor: pointer;
 }
 
-.bullet {
-  padding: 10px 10px 10px 25px;
+.project-picture {
+  opacity: 0;
 }
 
+.project-list li {
+  opacity: 0;
+}
+
+.full-stack li {
+  opacity: 0;
+}
+
+.personal li {
+  opacity: 0;
+}
+
+#footer-links {
+  float: right;
+}
+
+#footer-links a {
+  color: #0d47a1;
+  font-weight: 400;
+}
+
+#footer-links a:hover {
+  color: #607d8b;
+  cursor: pointer;
+}
+
+.resume-links h6 {
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-top: 23px;
+  margin-left: 10px;
+  margin-bottom: 23px;
+  letter-spacing: 2px;
+}
+
+.resume-links a {
+  color: white;
+}
+
+.resume-links a:hover {
+  cursor: pointer;
+  color: #78909c;
+}
+
+.resume-links li {
+  opacity: 0;
+}
+
+.resume-info {
+  margin-top: 10px;
+}
+
+.work {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.work h6 {
+  color: #0d47a1;
+  font-size: 1.25em;
+  letter-spacing: 1.25px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.work p {
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+.freelance {
+  color: #616161;
+  font-size: 0.9em;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.subhead {
+  color: #616161;
+  float: right;
+  font-size: 0.8em;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
