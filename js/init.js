@@ -22,6 +22,12 @@
       {selector: '#savvyshopper-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
+      {selector: '#bowleriq-list', offset: 150, callback: function(el) {
+        Materialize.showStaggeredList($(el));
+      } },
+      {selector: '#bowleriq-pic', offset: 200, callback: function(el) {
+        Materialize.fadeInImage($(el));
+      } },
       {selector: '#sandpiper-list', offset: 150, callback: function(el) {
         Materialize.showStaggeredList($(el));
       } },
@@ -44,12 +50,6 @@
         Materialize.showStaggeredList($(el));
       } },
       {selector: '#hangman-pic', offset: 200, callback: function(el) {
-        Materialize.fadeInImage($(el));
-      } },
-      {selector: '#viewtube-list', offset: 150, callback: function(el) {
-        Materialize.showStaggeredList($(el));
-      } },
-      {selector: '#viewtube-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
       {selector: '.resume-links', offset: 150, callback: function(el) {
