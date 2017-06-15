@@ -46,6 +46,13 @@ p {
   }
 }
 
+@media only screen and (min-width : 993px) {
+  .parallax img {
+    max-height: 750px;
+    min-width: 0;
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
