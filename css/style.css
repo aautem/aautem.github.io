@@ -81,6 +81,10 @@ footer.page-footer {
 }
 
 .side-nav {
+  height: 155px;
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 0;
   background-color: white;
 }
 
