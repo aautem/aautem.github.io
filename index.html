@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-  <title>Alex Autem | Software Engineer</title>
+  <title>Alex Autem | Software Developer</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,7 +21,7 @@
         <a id="logo-container" href="#intro" class="brand-logo">Alex Autem</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#intro">About</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#software">Software</a></li>
           <li><a href="#resume">Resume</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="grey-text text-darken-4 material-icons">menu</i></a>
@@ -32,7 +32,7 @@
   <!-- Mobile Navigation Menu -->
   <ul id="nav-mobile" class="side-nav">
     <li><a href="#intro" onclick="closeNav()"><i class="tiny material-icons">perm_identity</i>About</a></li>
-    <li><a href="#projects" onclick="closeNav()"><i class="tiny material-icons">library_books</i>Projects</a></li>
+    <li><a href="#software" onclick="closeNav()"><i class="tiny material-icons">library_books</i>Software</a></li>
     <li><a href="#resume" onclick="closeNav()"><i class="tiny material-icons">work</i>Resume</a></li>
   </ul>
 
@@ -46,14 +46,14 @@
           </div>
           <ul class="center col s12 m8 full-stack">
             <li><h1 class="name deep-purple-text text-darken-4">Alex Autem</h1></li>
-            <li><h5 class="subtitle grey-text text-darken-4">Full Stack Software Engineer</h5></li>
+            <li><h5 class="subtitle grey-text text-darken-4">Full Stack Software Developer</h5></li>
           </ul>
         </div>
 
       </div>
     </div>
 
-    <div class="parallax indigo lighten-4"><img src="images/alexautem.jpg" alt="Alex Autem, Software Engineer"></div>
+    <div class="parallax indigo lighten-4"><img src="images/alexautem.jpg" alt="Alex Autem, Software Developer"></div>
   </div>
 
   <!-- About Me -->
@@ -119,24 +119,24 @@
     </div>
   </div>
 
-  <!-- Software Engineering Projects -->
-  <div id="projects" class="yellow darken-2 section scrollspy">
+  <!-- Software Development Projects -->
+  <div id="software" class="yellow darken-2 section scrollspy">
     <div class="container">
       <div class="section">
 
         <div class="row">
           <div class="col s12 grey-text text-darken-4">
-            <h4>SOFTWARE ENGINEERING PROJECTS</h4>
+            <h4>SOFTWARE DEVELOPMENT PROJECTS</h4>
           </div>
         </div>
 
         <div class="row">
-          <div id="savvyshopper-pic" class="col s12 m7 project-picture">
-            <div class="card green z-depth-5">
+          <div id="cointrail-pic" class="col s12 m7 project-picture">
+            <div class="card yellow darken-2 z-depth-0">
               <div class="card-image">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/105rWtM_H2g?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.cointrail" target="_blank">
+                  <img src="images/cointrail.png" alt="Cointrail">
+                </a>
               </div>
             </div>
           </div>
@@ -144,18 +144,18 @@
           <div class="col s12 m5">
             <div class="card green z-depth-5">
               <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Savvy Shopper</span>
-                <p>Real-time chat with product experts</p>
-                <ul id="savvyshopper-list" class="project-list">
-                  <li>&bullet; Enabled users to search for and live-chat with product experts using Socket.io technology</li>
-                  <li>&bullet; Formed responsive mobile interface allowing users to swipe between views for easy navigation</li>
-                  <li>&bullet; Personalized user experience by dynamically rendering different views based on account status</li>
-                  <li>&bullet; Allowed users to save expert recommendations to wishlists to review and purchase items later</li>
+                <span class="card-title"><i class="material-icons">view_headline</i> Cointrail</span>
+                <p>Tic-Tac-Toe with a twist</p>
+                <ul id="cointrail-list" class="project-list">
+                  <li>&bullet; Configured web socket server with custom event listeners for online play between devices</li>
+                  <li>&bullet; Allowed players to personalize game settings including board size and coin color</li>
+                  <li>&bullet; Checked for winner after each move and saved player statistics to MongoDB database using custom RESTful API</li>
+                  <li>&bullet; Published game to Google Play Store complete with app icon and splashscreen</li>
                 </ul>
               </div>
               <div class="card-action green lighten-1">
-                <a href="https://savvyshopper.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Savvy Shopper</a>
-                <a href="https://github.com/hrr21-triceratops/triceratops" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
+                <a href="https://play.google.com/store/apps/details?id=com.cointrail" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Cointrail</a>
+                <a href="https://github.com/aautem/cointrail-client" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
               </div>
             </div>
           </div>
@@ -193,12 +193,12 @@
         </div>
 
         <div class="row">
-          <div id="sandpiper-pic" class="col s12 m7 project-picture">
+          <div id="savvyshopper-pic" class="col s12 m7 project-picture">
             <div class="card blue darken-1 z-depth-5">
               <div class="card-image">
-                <a href="https://sandpiperanalytics.herokuapp.com/" target="_blank">
-                  <img src="images/sandpiper.jpg" alt="Sandpiper Analytics">
-                </a>
+                <div class="videoWrapper">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/105rWtM_H2g?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -206,17 +206,18 @@
           <div class="col s12 m5">
             <div class="card blue darken-1 z-depth-5">
               <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Sandpiper Analytics</span>
-                <p>Track website performance over time</p>
-                <ul id="sandpiper-list" class="project-list">
-                  <li>&bullet; Generated custom CDN allowing users to effortlessly inject tracking script into sites</li>
-                  <li>&bullet; Organized MongoDB schemas with practical relationships for convenient access to data</li>
-                  <li>&bullet; Incorporated authentication using JSON web tokens to keep user data secure</li>
+                <span class="card-title"><i class="material-icons">view_headline</i> Savvy Shopper</span>
+                <p>Real-time chat with product experts</p>
+                <ul id="savvyshopper-list" class="project-list">
+                  <li>&bullet; Enabled users to search for and live-chat with product experts using Socket.io technology</li>
+                  <li>&bullet; Formed responsive mobile interface allowing users to swipe between views for easy navigation</li>
+                  <li>&bullet; Personalized user experience by dynamically rendering different views based on account status</li>
+                  <li>&bullet; Allowed users to save expert recommendations to wishlists to review and purchase items later</li>
                 </ul>
               </div>
               <div class="card-action blue">
-                <a href="https://sandpiperanalytics.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Sandpiper Analytics</a>
-                <a href="https://github.com/communicativetech/sandpiper" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
+                <a href="https://savvyshopper.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Savvy Shopper</a>
+                <a href="https://github.com/hrr21-triceratops/triceratops" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
               </div>
             </div>
           </div>
@@ -226,31 +227,33 @@
           <div class="col s12 m5">
             <div class="card teal z-depth-5">
               <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Metis Planner</span>
-                <p>Autonomously schedule your day</p>
-                <ul id="metis-list" class="project-list">
-                  <li>&bullet; Integrated Google’s Identity Platform to provide read and write access to user calendars</li>
-                  <li>&bullet; Created personalized user experience using time zone detection and custom Angular directives</li>
-                  <li>&bullet; Designed clean and intuitive scheduling interface for quickly registering multiple tasks</li>
+                <span class="card-title"><i class="material-icons">view_headline</i> Sandpiper Analytics</span>
+                <p>Track website performance over time</p>
+                <ul id="sandpiper-list" class="project-list">
+                  <li>&bullet; Generated custom CDN allowing users to effortlessly inject tracking script into sites</li>
+                  <li>&bullet; Organized MongoDB schemas with practical relationships for convenient access to data</li>
+                  <li>&bullet; Incorporated authentication using JSON web tokens to keep user data secure</li>
                 </ul>
               </div>
               <div class="card-action teal lighten-1">
-                <a href="https://metis-planner.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Metis Planner</a>
-                <a href="https://github.com/communicativetech/metis" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
+                <a href="https://sandpiperanalytics.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Sandpiper Analytics</a>
+                <a href="https://github.com/communicativetech/sandpiper" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
               </div>
             </div>
           </div>
 
-          <div id="metis-pic" class="col s12 m7 project-picture">
+          <div id="sandpiper-pic" class="col s12 m7 project-picture">
             <div class="card teal z-depth-5">
               <div class="card-image">
-                <a href="https://metis-planner.herokuapp.com/" target="_blank">
-                  <img src="images/metis.jpg" alt="Metis Planner">
+                <a href="https://sandpiperanalytics.herokuapp.com/" target="_blank">
+                  <img src="images/sandpiper.jpg" alt="Sandpiper Analytics">
                 </a>
               </div>
             </div>
           </div>
         </div>
+
+<!-- Bracket Builder / Hangman -->
 
         <div class="row">
           <div id="bracketbuilder-pic" class="col s12 m7 project-picture">
@@ -378,7 +381,7 @@
       <div class="container grey-text text-darken-4">
         &copy; 2017 Alex Autem
         <span id="footer-links">
-          <a href="#intro">About</a> | <a href="#projects">Projects</a> | <a href="#resume">Resume</a>
+          <a href="#intro">About</a> | <a href="#software">Software</a> | <a href="#resume">Resume</a>
         </span>
         <br>
         Designed with <a href="" target="_blank">Materialize</a><br>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" target="_blank" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" target="_blank" title="Flaticon">Flaticon.com</a>

@@ -16,6 +16,12 @@
           Materialize.showStaggeredList($(el));
         }, 500);
       } },
+      {selector: '#cointrail-list', offset: 150, callback: function(el) {
+        Materialize.showStaggeredList($(el));
+      } },
+      {selector: '#cointrail-pic', offset: 200, callback: function(el) {
+        Materialize.fadeInImage($(el));
+      } },
       {selector: '#savvyshopper-list', offset: 150, callback: function(el) {
         Materialize.showStaggeredList($(el));
       } },
@@ -32,12 +38,6 @@
         Materialize.showStaggeredList($(el));
       } },
       {selector: '#sandpiper-pic', offset: 200, callback: function(el) {
-        Materialize.fadeInImage($(el));
-      } },
-      {selector: '#metis-list', offset: 150, callback: function(el) {
-        Materialize.showStaggeredList($(el));
-      } },
-      {selector: '#metis-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
       {selector: '#bracketbuilder-list', offset: 150, callback: function(el) {
