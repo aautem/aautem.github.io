@@ -34,22 +34,16 @@
       {selector: '#bowleriq-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
-      {selector: '#sandpiper-list', offset: 150, callback: function(el) {
+      {selector: '#hangman-list', offset: 150, callback: function(el) {
         Materialize.showStaggeredList($(el));
       } },
-      {selector: '#sandpiper-pic', offset: 200, callback: function(el) {
+      {selector: '#hangman-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
       {selector: '#bracketbuilder-list', offset: 150, callback: function(el) {
         Materialize.showStaggeredList($(el));
       } },
       {selector: '#bracketbuilder-pic', offset: 200, callback: function(el) {
-        Materialize.fadeInImage($(el));
-      } },
-      {selector: '#hangman-list', offset: 150, callback: function(el) {
-        Materialize.showStaggeredList($(el));
-      } },
-      {selector: '#hangman-pic', offset: 200, callback: function(el) {
         Materialize.fadeInImage($(el));
       } },
       {selector: '.resume-links', offset: 150, callback: function(el) {
