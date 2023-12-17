@@ -23,14 +23,14 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .parallax-container .section {
   width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -40,13 +40,18 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #intro .section {
     top: 0;
   }
+
+  .parallax {
+    left: 0;
+    right: auto;
+  }
 }
 
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width: 993px) {
   .parallax img {
     max-height: 750px;
     min-width: 0;
@@ -65,8 +70,7 @@ footer.page-footer {
   margin: 0;
 }
 
-/* MY CUSTOM STYLES */
-
+/* CUSTOM STYLES */
 .name {
   font-size: 6.5em;
   text-transform: uppercase;
@@ -128,7 +132,7 @@ footer.page-footer {
 
 .chip:hover {
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   background-color: #e0e0e0;
 }
 
