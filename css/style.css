@@ -35,7 +35,7 @@ p {
 
 /* XL */
 .parallax img {
-  bottom: 8px;
+  bottom: -8px;
   max-width: 1455px;
   min-width: auto;
 }
@@ -43,7 +43,7 @@ p {
 /* Laptop */
 @media only screen and (max-width: 992px) {
   .parallax img {
-    bottom: 28px;
+    bottom: 8px;
   }
 }
 

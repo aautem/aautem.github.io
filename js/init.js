@@ -40,17 +40,15 @@
           const link = $("#connect-image-link");
           const image = $("#connect-image-link img");
           const imgSrcs = [
-            "images/connect/exam_evaluation.png",
-            "images/connect/add_preventative.png",
-            "images/connect/scrollable_table.png",
-            "images/connect/dashboard.png",
-            "images/connect/medical_exam.png",
+            "images/connect-2.png",
+            "images/connect-3.png",
+            "images/connect-1.png",
           ];
 
           // Loop through images
           setInterval(() => {
             const src = imgSrcs[index];
-            link.attr("href", "https://companionprotect.com/");
+            link.attr("href", `/${src}`);
             image.attr("src", src);
             index = index === 2 ? 0 : index + 1;
           }, 3500);
@@ -73,9 +71,9 @@
           const link = $("#wog-image-link");
           const image = $("#wog-image-link img");
           const imgSrcs = [
-            "images/wog/new_equipment.jpg",
-            "images/wog/work_order_list.jpg",
-            "images/wog/equipment_list.jpg",
+            "images/wog-2.png",
+            "images/wog-3.png",
+            "images/wog-1.png",
           ];
 
           // Loop through images
