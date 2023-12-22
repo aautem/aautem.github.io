@@ -50,9 +50,9 @@
           // Loop through images
           setInterval(() => {
             const src = imgSrcs[index];
-            link.attr("href", `/${src}`);
+            link.attr("href", "https://companionprotect.com/");
             image.attr("src", src);
-            index = index === 4 ? 0 : index + 1;
+            index = index === 2 ? 0 : index + 1;
           }, 3500);
         },
       },
