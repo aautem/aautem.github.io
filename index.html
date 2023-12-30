@@ -1,420 +1,836 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-  <title>Alex Autem | Software Developer</title>
+    <title>Alex Autem | Software Developer</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.min.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+  </head>
+  <body>
+    <!-- Main Navigation -->
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#intro" class="brand-logo">Alex Autem</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#intro">About</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"
+            ><i class="grey-text text-darken-4 material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
 
-  <!-- Main Navigation -->
-  <div class="navbar-fixed">
-    <nav class="white" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#intro" class="brand-logo">Alex Autem</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#intro">About</a></li>
-          <li><a href="#software">Software</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="grey-text text-darken-4 material-icons">menu</i></a>
+    <!-- Mobile Navigation Menu -->
+    <ul id="nav-mobile" class="side-nav">
+      <li>
+        <a href="#intro" onclick="closeNav()"
+          ><i class="tiny material-icons">perm_identity</i>About</a
+        >
+      </li>
+      <li>
+        <a href="#software" onclick="closeNav()"
+          ><i class="tiny material-icons">library_books</i>Software</a
+        >
+      </li>
+      <li>
+        <a href="#resume" onclick="closeNav()"
+          ><i class="tiny material-icons">work</i>Resume</a
+        >
+      </li>
+    </ul>
+
+    <!-- Parallax header -->
+    <div id="intro" class="parallax-container section scrollspy">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4"></div>
+            <ul class="center col s12 m8 full-stack">
+              <li>
+                <h1 class="name deep-purple-text text-darken-4">
+                  Alex<br />Autem
+                </h1>
+              </li>
+              <li>
+                <h5 class="subtitle grey-text text-darken-4">
+                  Fullstack Software Developer
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </nav>
-  </div>
 
-  <!-- Mobile Navigation Menu -->
-  <ul id="nav-mobile" class="side-nav">
-    <li><a href="#intro" onclick="closeNav()"><i class="tiny material-icons">perm_identity</i>About</a></li>
-    <li><a href="#software" onclick="closeNav()"><i class="tiny material-icons">library_books</i>Software</a></li>
-    <li><a href="#resume" onclick="closeNav()"><i class="tiny material-icons">work</i>Resume</a></li>
-  </ul>
+      <div class="parallax indigo lighten-4">
+        <img src="images/alexautem.png" alt="Alex Autem, Software Developer" />
+      </div>
+    </div>
 
-  <!-- Parallax header -->
-  <div id="intro" class="parallax-container section scrollspy">
-    <div class="section no-pad-bot">
+    <!-- About Me -->
+    <div class="deep-purple darken-3 section">
       <div class="container">
+        <div class="section">
+          <div class="row white-text">
+            <ul class="col s12 m12 l4 personal">
+              <li>
+                <a href="#resume"
+                  ><i class="tiny material-icons">perm_identity</i> @aautem</a
+                >
+              </li>
+              <li>
+                <a href="mailto:autem.alex@gmail.com"
+                  ><i class="tiny material-icons">email</i>
+                  autem.alex@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://goo.gl/maps/KgxPaCML8uqLhdfAA" target="_blank"
+                  ><i class="tiny material-icons">location_on</i> Kansas City,
+                  MO</a
+                >
+              </li>
+            </ul>
 
-        <div class="row">
-          <div class="col s12 m4">
+            <div class="col s12 m12 l8 center about-me">
+              <p class="left-align light">
+                Hi there! My name's Alex and I'm a software engineer
+                specializing in fullstack JavaScript. I enjoy collaborating on
+                innovative projects, using my creativity to solve problems and
+                bring applications to life. When I'm not coding, I enjoy playing
+                with my wife and kids, cuddling with my pets, cheering on the
+                Chiefs, watching stand-up comedy and playing Madden. Let's
+                connect!
+              </p>
+            </div>
           </div>
-          <ul class="center col s12 m8 full-stack">
-            <li><h1 class="name deep-purple-text text-darken-4">Alex Autem</h1></li>
-            <li><h5 class="subtitle grey-text text-darken-4">Full-Stack Software Developer</h5></li>
-          </ul>
-        </div>
 
-      </div>
-    </div>
-
-    <div class="parallax indigo lighten-4"><img src="images/alexautem.jpg" alt="Alex Autem, Software Developer"></div>
-  </div>
-
-  <!-- About Me -->
-  <div class="deep-purple darken-3 section">
-    <div class="container">
-      <div class="section">
-
-        <div class="row white-text">
-          <ul class="col s12 m4 personal">
-            <li><a href="#resume"><i class="tiny material-icons">perm_identity</i> @aautem</a></li>
-            <li><a href="mailto:autem.alex@gmail.com"><i class="tiny material-icons">email</i> autem.alex@gmail.com</a></li>
-            <li><a href="https://goo.gl/maps/KgxPaCML8uqLhdfAA" target="_blank"><i class="tiny material-icons">location_on</i> Kansas City, MO</a></li>
-          </ul>
-
-          <div class="col s12 m8 center about-me">
-            <p class="left-align light">
-              Hi there! My name's Alex and I'm a software engineer specializing in full-stack JavaScript.
-              I enjoy collaborating on innovative projects, using my creativity to solve problems and bring applications to life.
-              When I'm not coding, I enjoy cuddling with my pets, cheering on the Chiefs, watching stand-up comedy and playing Madden 21.
-              Let's connect!
-            </p>
-          </div>
-        </div>
-
-        <!-- Technical Skills -->
-        <div class="row white-text">
-          <div class="col s12 center">
-            <div class="chip-set">
-              <!-- Strong -->
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><div class="chip z-depth-1">JavaScript</div></a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><div class="chip z-depth-1">HTML</div></a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank"><div class="chip z-depth-1">CSS</div></a>
-              <a href="https://facebook.github.io/react/" target="_blank"><div class="chip z-depth-1">React</div></a>
-              <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank"><div class="chip z-depth-1">React Hooks</div></a>
-              <a href="http://redux.js.org/" target="_blank"><div class="chip z-depth-1">Redux</div></a>
-              <a href="https://www.apollographql.com/" target="_blank"><div class="chip z-depth-1">GraphQL</div></a>
-              <a href="https://angularjs.org/" target="_blank"><div class="chip z-depth-1">AngularJS</div></a>
-              <a href="https://material-ui.com/" target="_blank"><div class="chip z-depth-1">Material UI</div></a>
-              <a href="https://formik.org/" target="_blank"><div class="chip z-depth-1">Formik</div></a>
-              <a href="https://www.cypress.io/" target="_blank"><div class="chip z-depth-1">Cypress</div></a>
-              <a href="https://git-scm.com/" target="_blank"><div class="chip z-depth-1">Git</div></a>
-
-              <!-- Experienced -->
-              <a href="https://nodejs.org/en/" target="_blank"><div class="chip z-depth-1">NodeJS</div></a>
-              <a href="https://expressjs.com/" target="_blank"><div class="chip z-depth-1">Express</div></a>
-              <a href="https://www.typescriptlang.org/" target="_blank"><div class="chip z-depth-1">TypeScript</div></a>
-              <a href="https://facebook.github.io/react-native/" target="_blank"><div class="chip z-depth-1">React Native</div></a>
-              <a href="https://www.electronjs.org/" target="_blank"><div class="chip z-depth-1">Electron</div></a>
-              <a href="https://storybook.js.org/" target="_blank"><div class="chip z-depth-1">Storybook</div></a>
-              <a href="https://recoiljs.org/" target="_blank"><div class="chip z-depth-1">Recoil</div></a>
-              <a href="https://www.mongodb.com/" target="_blank"><div class="chip z-depth-1">MongoDB</div></a>
-              <a href="https://www.postgresql.org/" target="_blank"><div class="chip z-depth-1">PostgreSQL</div></a>
+          <!-- Technical Skills -->
+          <div class="row white-text">
+            <div class="col s12 m12 center">
+              <div class="chip-set">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  ><div class="chip z-depth-1">JavaScript</div></a
+                >
+                <a href="https://www.typescriptlang.org/" target="_blank"
+                  ><div class="chip z-depth-1">TypeScript</div></a
+                >
+                <a href="https://react.dev/" target="_blank"
+                  ><div class="chip z-depth-1">React</div></a
+                >
+                <a href="https://nodejs.org/en/" target="_blank"
+                  ><div class="chip z-depth-1">Node.js</div></a
+                >
+                <a href="https://expressjs.com/" target="_blank"
+                  ><div class="chip z-depth-1">Express</div></a
+                >
+                <a href="https://docs.nestjs.com/" target="_blank"
+                  ><div class="chip z-depth-1">NestJS</div></a
+                >
+                <a href="https://www.mongodb.com/" target="_blank"
+                  ><div class="chip z-depth-1">MongoDB</div></a
+                >
+                <a href="https://www.postgresql.org/" target="_blank"
+                  ><div class="chip z-depth-1">PostgreSQL</div></a
+                >
+                <a href="https://www.apollographql.com/" target="_blank"
+                  ><div class="chip z-depth-1">GraphQL</div></a
+                >
+                <a href="https://lodash.com/" target="_blank"
+                  ><div class="chip z-depth-1">Lodash</div></a
+                >
+                <a href="https://day.js.org/" target="_blank"
+                  ><div class="chip z-depth-1">Day.js</div></a
+                >
+                <a href="https://mui.com/material-ui/" target="_blank"
+                  ><div class="chip z-depth-1">Material UI</div></a
+                >
+                <a href="https://zod.dev/" target="_blank"
+                  ><div class="chip z-depth-1">Zod</div></a
+                >
+                <a href="https://zustand-demo.pmnd.rs/" target="_blank"
+                  ><div class="chip z-depth-1">Zustand</div></a
+                >
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+                  target="_blank"
+                  ><div class="chip z-depth-1">HTML</div></a
+                >
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+                  target="_blank"
+                  ><div class="chip z-depth-1">CSS</div></a
+                >
+                <a
+                  href="https://facebook.github.io/react-native/"
+                  target="_blank"
+                  ><div class="chip z-depth-1">React Native</div></a
+                >
+                <a href="https://www.electronjs.org/" target="_blank"
+                  ><div class="chip z-depth-1">Electron</div></a
+                >
+                <a href="https://storybook.js.org/" target="_blank"
+                  ><div class="chip z-depth-1">Storybook</div></a
+                >
+                <a href="https://playwright.dev/" target="_blank"
+                  ><div class="chip z-depth-1">Playwright</div></a
+                >
+                <a href="https://git-scm.com/" target="_blank"
+                  ><div class="chip z-depth-1">Git</div></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="software" class="yellow darken-2 section scrollspy">
-    <div class="container">
-      <div class="section">
-
-        <div class="row">
-          <div class="col s12 grey-text text-darken-4">
-            <!-- <h4>SOFTWARE</h4> -->
-          </div>
-        </div>
-
-        <div class="row">
-          <div id="connect-pic" class="col s12 m7 project-picture">
-            <div class="card teal darken-3 z-depth-5">
-              <div class="card-image">
-                <a href="/images/connect/medical_exam.png" target="_blank" id="connect-image-link">
-                  <img src="images/connect/medical_exam.png" alt="Companion Connect">
-                </a>
-              </div>
+    <div id="software" class="yellow darken-2 section scrollspy">
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12 m12 grey-text text-darken-4">
+              <!-- <h4>SOFTWARE</h4> -->
             </div>
           </div>
 
-          <div class="col s12 m5">
-            <div class="card teal z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Companion Connect</span>
-                <p>Animal shelter management software</p>
-                <ul id="connect-list" class="project-list">
-                  <li>&bullet; Responsible for all aspects of front-end development on software used by 20+ animal shelters across the U.S.</li>
-                  <li>&bullet; Led small team of remote devs, assigning tasks and providing constructive feedback in daily code reviews</li>
-                  <li>&bullet; Owned major features from requirements review to release, developing standards and patterns used by others</li>
-                  <li>&bullet; Headed transition of legacy AngularJS app to React, using feature flags to safely upgrade components</li>
-                </ul>
-              </div>
-              <div class="card-action teal lighten-1">
-                <a href="https://www.companionconnect.com" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Companion Connect</a>
+          <div class="row">
+            <div id="connect-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a
+                    href="https://companionprotect.com/"
+                    target="_blank"
+                    id="connect-image-link"
+                  >
+                    <img src="images/connect-1.png" alt="Companion Connect" />
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col s12 m5">
-            <div class="card deep-purple lighten-1 z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Work Order Generator</span>
-                <p>Custom work order management software</p>
-                <ul id="wog-list" class="project-list">
-                  <li>&bullet; Electron app for medical equipment company to manage organizations, equipment lists, preventative maintainence procedures and individual work orders</li>
-                  <li>&bullet; Generates easy-to-read work order PDFs for clients based on user inputted frequency and equipment details</li>
-                  <li>&bullet; Built migration wizard to simplify process of upgrading to new app versions with additional features</li>
-                </ul>
-              </div>
-              <div class="card-action deep-purple lighten-2">
-                <a href="/images/wog/work_order.pdf" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Sample Work Order PDF</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="wog-pic" class="col s12 m7 project-picture">
-            <div class="card deep-purple lighten-1 z-depth-5">
-              <div class="card-image">
-                <a href="/images/wog/equipment_list.jpg" target="_blank" id="wog-image-link">
-                  <img src="images/wog/equipment_list.jpg" alt="Work Order Generator">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div id="cointrail-pic" class="col s12 m7 project-picture">
-            <div class="card yellow darken-2 z-depth-0">
-              <div class="card-image">
-                <a href="https://play.google.com/store/apps/details?id=com.cointrail" target="_blank">
-                  <img src="images/cointrail.png" alt="Cointrail">
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m5">
-            <div class="card green z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Cointrail</span>
-                <p>A multiplayer mashup of Connect 4 and Tic-tac-toe</p>
-                <ul id="cointrail-list" class="project-list">
-                  <li>&bullet; Configured web socket server with custom event listeners for online play between mobile devices</li>
-                  <li>&bullet; Allowed players to personalize game settings including board size and game-piece color</li>
-                  <li>&bullet; Published React Native app to Google Play Store complete with app icon, splashscreen and privacy policy</li>
-                </ul>
-              </div>
-              <div class="card-action green lighten-1">
-                <a href="https://play.google.com/store/apps/details?id=com.cointrail" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Cointrail</a>
-                <a href="https://github.com/aautem/cointrail-client" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s12 m5">
-            <div class="card orange darken-3 z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> BowlerIQ</span>
-                <p>Visualize bowling statistics over the course of a game or entire career</p>
-                <ul id="bowleriq-list" class="project-list">
-                  <li>&bullet; Developed scoring algorithm to calculate current score as well as potential high score after each ball</li>
-                  <li>&bullet; Dynamically rendered intuitive game score graphs using individual game data with Google Charts API</li>
-                  <li>&bullet; Created RESTful API to store game data and aggregate results into career bowlings statistics</li>
-                </ul>
-              </div>
-              <div class="card-action orange darken-2">
-                <a href="https://bowleriq.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> BowlerIQ</a>
-                <a href="https://github.com/aautem/bowler-iq" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
-              </div>
-            </div>
-          </div>
-
-          <div id="bowleriq-pic" class="col s12 m7 project-picture">
-            <div class="card orange darken-3 z-depth-5">
-              <div class="card-image">
-                <a href="https://bowleriq.herokuapp.com/" target="_blank">
-                  <img src="images/bowleriq.jpg" alt="BowlerIQ">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div id="savvyshopper-pic" class="col s12 m7 project-picture">
-            <div class="card blue darken-1 z-depth-5">
-              <div class="card-image">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/105rWtM_H2g?rel=0" frameborder="0" allowfullscreen></iframe>
+            <div class="col s12 m12 l5">
+              <div class="card teal lighten-4 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Companion
+                    Connect</span
+                  >
+                  <p>Animal shelter management software</p>
+                  <ul id="connect-list" class="project-list">
+                    <li>
+                      &bullet; Responsible for all aspects of front-end
+                      development on software used by 20+ animal shelters across
+                      the U.S.
+                    </li>
+                    <li>
+                      &bullet; Led small team of remote devs, assigning tasks
+                      and providing constructive feedback in daily code reviews
+                    </li>
+                    <li>
+                      &bullet; Owned major features from requirements review to
+                      release, developing standards and patterns used by others
+                    </li>
+                    <li>
+                      &bullet; Headed transition of legacy AngularJS app to
+                      React, using feature flags to safely upgrade components
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action teal lighten-5">
+                  <a
+                    href="https://companionprotect.com/"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    Companion Connect</a
+                  >
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col s12 m5">
-            <div class="card blue darken-1 z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> Savvy Shopper</span>
-                <p>Real-time chat with product experts</p>
-                <ul id="savvyshopper-list" class="project-list">
-                  <li>&bullet; Enabled users to search for and live-chat with product experts using Socket.io technology</li>
-                  <li>&bullet; Formed responsive mobile interface allowing users to swipe between views for easy navigation</li>
-                  <li>&bullet; Personalized user experience by dynamically rendering different views based on account status</li>
-                  <li>&bullet; Allowed users to save expert recommendations to wishlists to review and purchase items later</li>
-                </ul>
+          <div class="row">
+            <div class="col s12 m12 l5">
+              <div class="card grey lighten-2 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Check the
+                    Back</span
+                  >
+                  <p>
+                    Get instant alerts when your favorite products restock or
+                    drop in price
+                  </p>
+                  <ul id="ctb-list" class="project-list">
+                    <li>
+                      &bullet; Developed automated web scraping algorithms to
+                      monitor and extract product data from various online
+                      stores
+                    </li>
+                    <li>
+                      &bullet; Integrated real-time notification systems,
+                      enabling users to receive immediate alerts via email and
+                      SMS when desired products became available or prices
+                      changed
+                    </li>
+                    <li>
+                      &bullet; Utilized CI/CD pipelines to streamline the
+                      development process, enabling frequent deployments and
+                      continuous integration.
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action grey lighten-3">
+                  <a
+                    href="https://checktheback.com"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    Check the Back</a
+                  >
+                </div>
               </div>
-              <div class="card-action blue">
-                <a href="https://savvyshopper.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> Savvy Shopper</a>
-                <a href="https://github.com/hrr21-triceratops/triceratops" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
+            </div>
+
+            <div id="ctb-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a href="https://checktheback.com" target="_blank">
+                    <img src="images/ctb.png" alt="Check the Back" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col s12 m5">
-            <div class="card red darken-1 z-depth-5">
-              <div class="card-content">
-                <span class="card-title"><i class="material-icons">view_headline</i> HangmanJS</span>
-                <p>My "hello world" JavaScript app</p>
-                <ul id="hangman-list" class="project-list">
-                  <li>&bullet; Rendered body parts and letters to DOM based on correct or incorrect guesses using jQuery</li>
-                  <li>&bullet; Hid custom phrases in multiplayer games and random words in single-player games for users to guess</li>
-                </ul>
+          <div class="row">
+            <div id="bowleriq-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a href="https://bowler-iq.fly.dev/" target="_blank">
+                    <img src="images/bowleriq.png" alt="Bowler IQ" />
+                  </a>
+                </div>
               </div>
-              <div class="card-action red">
-                <a href="https://hangman-js.herokuapp.com/" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> HangmanJS</a>
-                <a href="https://github.com/aautem/hangman" target="_blank" class="light-blue-text text-darken-4"><i class="material-icons">launch</i> GitHub</a>
+            </div>
+
+            <div class="col s12 m12 l5">
+              <div class="card orange lighten-3 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Bowler IQ</span
+                  >
+                  <p>
+                    Visualize bowling statistics over the course of a game or
+                    entire career
+                  </p>
+                  <ul id="bowleriq-list" class="project-list">
+                    <li>
+                      &bullet; Developed scoring algorithm to calculate current
+                      score as well as potential high score after each ball
+                    </li>
+                    <li>
+                      &bullet; Dynamically rendered intuitive game score graphs
+                      using individual game data with Google Charts API
+                    </li>
+                    <li>
+                      &bullet; Created RESTful API to store game data and
+                      aggregate results into career bowlings statistics
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action orange lighten-4" style="display: flex">
+                  <a
+                    href="https://bowler-iq.fly.dev/"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    Bowler IQ</a
+                  >
+                </div>
               </div>
             </div>
           </div>
 
-          <div id="hangman-pic" class="col s12 m7 project-picture">
-            <div class="card red darken-1 z-depth-5">
-              <div class="card-image">
-                <a href="https://hangman-js.herokuapp.com/" target="_blank">
-                  <img src="images/hangman.jpg" alt="HangmanJS">
-                </a>
+          <div class="row">
+            <div class="col s12 m12 l5">
+              <div class="card deep-purple lighten-4 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Work Order
+                    Generator</span
+                  >
+                  <p>Custom work order management software</p>
+                  <ul id="wog-list" class="project-list">
+                    <li>
+                      &bullet; Electron app for medical equipment company to
+                      manage organizations, equipment lists, preventative
+                      maintainence procedures and individual work orders
+                    </li>
+                    <li>
+                      &bullet; Generates easy-to-read work order PDFs for
+                      clients based on user inputted frequency and equipment
+                      details
+                    </li>
+                    <li>
+                      &bullet; Built migration wizard to simplify process of
+                      upgrading to new app versions with additional features
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action deep-purple lighten-5">
+                  <a
+                    href="/images/wog/work_order.pdf"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    Example PDF</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div id="wog-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a
+                    href="/images/wog-1.png"
+                    target="_blank"
+                    id="wog-image-link"
+                  >
+                    <img src="images/wog-1.png" alt="Work Order Generator" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="cointrail-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a
+                    href="https://github.com/aautem/cointrail-client"
+                    target="_blank"
+                  >
+                    <img src="images/cointrail.png" alt="Cointrail" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l5">
+              <div class="card green lighten-3 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Cointrail</span
+                  >
+                  <p>A multiplayer mashup of Connect 4 and Tic-tac-toe</p>
+                  <ul id="cointrail-list" class="project-list">
+                    <li>
+                      &bullet; Configured web socket server with custom event
+                      listeners for online play between mobile devices
+                    </li>
+                    <li>
+                      &bullet; Allowed players to personalize game settings
+                      including board size and game-piece color
+                    </li>
+                    <li>
+                      &bullet; Published React Native app to Google Play Store
+                      complete with app icon, splashscreen and privacy policy
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action green lighten-4">
+                  <a
+                    href="https://github.com/aautem/cointrail-client"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m12 l5">
+              <div class="card blue lighten-4 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Savvy
+                    Shopper</span
+                  >
+                  <p>Real-time chat with product experts</p>
+                  <ul id="savvyshopper-list" class="project-list">
+                    <li>
+                      &bullet; Enabled users to search for and live-chat with
+                      product experts using Socket.io technology
+                    </li>
+                    <li>
+                      &bullet; Formed responsive mobile interface allowing users
+                      to swipe between views for easy navigation
+                    </li>
+                    <li>
+                      &bullet; Personalized user experience by dynamically
+                      rendering different views based on account status
+                    </li>
+                    <li>
+                      &bullet; Allowed users to save expert recommendations to
+                      wishlists to review and purchase items later
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action blue lighten-5">
+                  <a
+                    href="https://github.com/hrr21-triceratops/triceratops"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div id="savvyshopper-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <div class="videoWrapper">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/105rWtM_H2g?rel=0"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="hangman-pic" class="col s12 m12 l7 project-picture">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a href="https://hello-hangman.netlify.app/" target="_blank">
+                    <img src="images/hangman.png" alt="HangmanJS" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l5">
+              <div class="card red lighten-4 z-depth-5">
+                <div class="card-content">
+                  <span class="card-title"
+                    ><i class="material-icons">view_headline</i> Hangman
+                    JS</span
+                  >
+                  <p>My "hello world" JavaScript app</p>
+                  <ul id="hangman-list" class="project-list">
+                    <li>
+                      &bullet; Rendered body parts and letters to DOM based on
+                      correct or incorrect guesses using jQuery
+                    </li>
+                    <li>
+                      &bullet; Hid custom phrases in multiplayer games and
+                      random words in single-player games for users to guess
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-action red lighten-5" style="display: flex">
+                  <a
+                    href="https://hello-hangman.netlify.app/"
+                    target="_blank"
+                    class="light-blue-text text-darken-4"
+                    style="display: flex; align-items: center"
+                    ><i class="material-icons" style="margin-right: 4px"
+                      >launch</i
+                    >
+                    Hangman JS</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="resume" class="light-blue darken-4 section scrollspy">
-    <div class="container">
-      <div class="section">
+    <div id="resume" class="light-blue darken-4 section scrollspy">
+      <div class="container">
+        <div class="section">
+          <div class="row white-text">
+            <ul class="col s12 m12 l3 resume-links">
+              <li>
+                <a href="https://github.com/aautem" target="_blank"
+                  ><img src="images/github.png" />
+                  <h6>GITHUB</h6></a
+                >
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/aautem" target="_blank"
+                  ><img src="images/linkedin.png" />
+                  <h6>LINKEDIN</h6></a
+                >
+              </li>
+            </ul>
 
-        <div class="row white-text">
-          <ul class="col s12 m3 resume-links">
-            <li><a href="https://github.com/aautem" target="_blank"><img src="images/github.png"><h6>GITHUB</h6></a></li>
-            <li><a href="https://linkedin.com/in/aautem" target="_blank"><img src="images/linkedin.png"><h6>LINKEDIN</h6></a></li>
-          </ul>
+            <div class="col s12 m12 l8 resume-info">
+              <h5>
+                <i class="material-icons">work</i> PROFESSIONAL EXPERIENCE
+              </h5>
 
-          <div class="col s12 m8 resume-info">
-            <h5><i class="material-icons">work</i> PROFESSIONAL EXPERIENCE</h5>
+              <div
+                class="card-panel grey lighten-4 work grey-text text-darken-4"
+              >
+                <h6>
+                  MJH LIFE SCIENCES,
+                  <span class="grey-text text-darken-2"
+                    >Senior Software Engineer</span
+                  >
+                  <span class="subhead">2023 - present</span>
+                </h6>
 
-            <div class="card-panel grey lighten-4 work grey-text text-darken-4">
-              <h6>
-                COMPANION PROTECT, <span class="grey-text text-darken-2">Lead Front-End Engineer</span>
-                <span class="subhead">2018 - present</span>
-              </h6>
-              <span class="freelance">&#8226; Responsible for all aspects of front-end development on software used by 20+ animal shelters across the U.S.</span>
-              <span class="freelance">&#8226; Led small team of remote devs, assigning tasks and providing constructive feedback in daily code reviews</span>
-              <span class="freelance">&#8226; Owned major features from requirements review to release, developing standards and patterns used by others</span>
-              <span class="freelance">&#8226; Headed transition of legacy AngularJS app to React, using feature flags to safely upgrade components</span>
-              <span class="freelance">&#8226; Introduced Cypress testing suite, automating interaction with inputs and buttons to ensure correct app behavior</span>
+                <hr />
 
-              <hr>
+                <h6>
+                  FREIGHTVIEW,
+                  <span class="grey-text text-darken-2"
+                    >Software Engineer III</span
+                  >
+                  <span class="subhead">2020 - 2023</span>
+                </h6>
+                <span class="freelance"
+                  >&#8226; Lead React developer on transportation management
+                  software handling 7,000+ shipment dispatches per day</span
+                >
+                <span class="freelance"
+                  >&#8226; Migrated front-ends to Nx monorepo resulting in code
+                  reusability across apps and a more efficient CI process</span
+                >
+                <span class="freelance"
+                  >&#8226; Architechted solutions for complex form workflows
+                  requiring dozens of inputs and custom field validation</span
+                >
+                <span class="freelance"
+                  >&#8226; Assisted support team by debugging and resolving
+                  issues in real-time with clients calling and chatting in for
+                  help</span
+                >
 
-              <h6>
-                TRIFIN LABS, <span class="grey-text text-darken-2">Software Developer</span>
-                <span class="subhead">2017 - 2018</span>
-              </h6>
-              <span class="freelance">&#8226; Technical point of contact and lead dev for three legacy AngularJS apps commissioned by TriFin clients</span>
-              <span class="freelance">&#8226; Implemented IBM Watson's speech recognition abilities to perform sentiment analysis on video uploads</span>
-              <span class="freelance">&#8226; Interfaced with IoT devices to track and remotely control truck refrigeration units in fleet management software</span>
+                <hr />
 
-              <!-- <span class="freelance">&#8226; Contributed articles to TriFin Labs ‘Insights Blog’ covering software development topics and trends</span> -->
+                <h6>
+                  COMPANION PROTECT,
+                  <span class="grey-text text-darken-2"
+                    >Lead Front-End Engineer</span
+                  >
+                  <span class="subhead">2018 - 2020</span>
+                </h6>
+                <span class="freelance"
+                  >&#8226; Responsible for all aspects of front-end development
+                  on software used by 20+ animal shelters across the U.S.</span
+                >
+                <span class="freelance"
+                  >&#8226; Led small team of remote devs, assigning tasks and
+                  providing constructive feedback in daily code reviews</span
+                >
+                <span class="freelance"
+                  >&#8226; Owned major features from requirements review to
+                  release, developing standards and patterns used by
+                  others</span
+                >
+                <span class="freelance"
+                  >&#8226; Headed transition of legacy AngularJS app to React,
+                  using feature flags to safely upgrade components</span
+                >
+                <span class="freelance"
+                  >&#8226; Introduced Cypress testing suite, automating
+                  interaction with inputs and buttons to ensure correct app
+                  behavior</span
+                >
 
-              <!-- <p>XIVELY <span class="grey-text text-darken-2"> (Boston, MA)</span></p>
-              <span class="freelance">&#8226; Performed variety of upgrades on two React/Redux IoT applications tracking refrigeration trucks and solar panels</span>
-              <span class="freelance">&#8226; Constructed commands to control refrigeration truck power and temperature settings using MQTT connections</span>
-              <span class="freelance">&#8226; Tracked truck locations to provide real-time travel lines and popovers displaying trip data with the Google Maps API</span>
-              <span class="freelance">&#8226; Built custom Alerts component and initialized database polling to check for solar panel faults and alarms periodically</span> -->
+                <hr />
 
-              <!-- <p>MOTIVATE <span class="grey-text text-darken-2"> (San Diego, CA)</span></p>
-              <span class="freelance">&#8226; Engineered Salesforce utility to parse .xlsx spreadsheets and create app surveys from client uploaded documents</span>
-              <span class="freelance">&#8226; Implemented multiple registration and login security features to prevent users from creating multiple accounts</span>
-              <span class="freelance">&#8226; Devised method to write demographic data to user records based on individual survey question responses</span> -->
+                <h6>
+                  TRIFIN LABS,
+                  <span class="grey-text text-darken-2"
+                    >Software Developer</span
+                  >
+                  <span class="subhead">2017 - 2018</span>
+                </h6>
+                <span class="freelance"
+                  >&#8226; Technical point of contact and lead dev for three
+                  legacy AngularJS apps commissioned by TriFin clients</span
+                >
+                <span class="freelance"
+                  >&#8226; Implemented IBM Watson's speech recognition abilities
+                  to perform sentiment analysis on video uploads</span
+                >
+                <span class="freelance"
+                  >&#8226; Interfaced with IoT devices to track and remotely
+                  control truck refrigeration units in fleet management
+                  software</span
+                >
 
-              <!-- <p>SPACE FLORIDA <span class="grey-text text-darken-2"> (Exploration Park, FL)</span></p>
-              <span class="freelance">&#8226; Executed feature and style upgrades for spaceflorida.gov and interactive mobile application featuring launch dates</span>
-              <span class="freelance">&#8226; Built AngularJS page templates for use with Contentful CMS platform to enable client to easily update site content</span>
-              <span class="freelance">&#8226; Established geolocation checks in mobile app to allow only devices within Florida to check into rocket launch events</span> -->
+                <hr />
 
-              <hr>
+                <h6>
+                  FREELANCE,
+                  <span class="grey-text text-darken-2"
+                    >Creative Problem Solver</span
+                  >
+                  <span class="subhead">2016 - present</span>
+                </h6>
+                <span class="freelance"
+                  >&#8226; Architechted Electron app for medical equipment
+                  company to manage organizations, equipment lists, preventative
+                  maintainence procedures and individual work orders</span
+                >
+                <span class="freelance"
+                  >&#8226; Designed responsive cart UI for carpet cleaning
+                  company to provide instant quotes to potential customers</span
+                >
+                <span class="freelance"
+                  >&#8226; Launched website for vacation rental property to
+                  showcase amentities and provide rental info to travelers</span
+                >
+              </div>
 
-              <h6>
-                FREELANCE, <span class="grey-text text-darken-2">Creative Problem Solver</span>
-                <span class="subhead">2016 - present</span>
-              </h6>
-              <span class="freelance">&#8226; Architechted Electron app for medical equipment company to manage organizations, equipment lists, preventative maintainence procedures and individual work orders</span>
-              <span class="freelance">&#8226; Designed responsive cart UI for carpet cleaning company to provide instant quotes to potential customers</span>
-              <span class="freelance">&#8226; Launched website for vacation rental property to showcase amentities and provide rental info to travelers</span>
-            </div>
+              <h5><i class="material-icons">library_books</i> EDUCATION</h5>
 
-            <h5><i class="material-icons">library_books</i> EDUCATION</h5>
-
-            <div class="card-panel grey lighten-4 work grey-text text-darken-4">
-              <h6>HACK REACTOR<span class="subhead">2017</span></h6>
-              <p>Advanced Software Engineering Immersive</p>
-              <hr>
-              <h6>NORTHWEST MISSOURI STATE UNIVERSITY<span class="subhead">2011</span></h6>
-              <p>B.S. in Broadcasting, Interactive Digital Media</p>
+              <div
+                class="card-panel grey lighten-4 work grey-text text-darken-4"
+              >
+                <h6>HACK REACTOR<span class="subhead">2017</span></h6>
+                <p>Advanced Software Engineering Immersive</p>
+                <hr />
+                <h6>
+                  NORTHWEST MISSOURI STATE UNIVERSITY<span class="subhead"
+                    >2011</span
+                  >
+                </h6>
+                <p>B.S. in Broadcasting, Interactive Digital Media</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="page-footer white">
-    <div class="footer-copyright white">
-      <div class="container grey-text text-darken-4">
-        &copy; 2020 Alex Autem
-        <span id="footer-links">
-          <a href="#intro">About</a> | <a href="#software">Software</a> | <a href="#resume">Resume</a>
-        </span>
-        <br>
-        Designed with <a href="" target="_blank">Materialize</a><br>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" target="_blank" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" target="_blank" title="Flaticon">Flaticon.com</a>
+    <!-- Footer -->
+    <footer class="page-footer white">
+      <div class="footer-copyright white">
+        <div class="container grey-text text-darken-4">
+          &copy;
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          Alex Autem
+          <span id="footer-links">
+            <a href="#intro">About</a> | <a href="#software">Software</a> |
+            <a href="#resume">Resume</a>
+          </span>
+          <br />
+          Designed with <a href="" target="_blank">Materialize</a><br />Icons
+          made by
+          <a
+            href="http://www.flaticon.com/authors/dave-gandy"
+            target="_blank"
+            title="Dave Gandy"
+            >Dave Gandy</a
+          >
+          from
+          <a href="http://www.flaticon.com" target="_blank" title="Flaticon"
+            >Flaticon.com</a
+          >
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
 
-  <!-- Google Analytics Script -->
-  <script>
-    var closeNav = function() {
-      $('.button-collapse').sideNav('hide');
-    };
+    <!-- Google Analytics Script -->
+    <script>
+      var closeNav = function () {
+        $(".button-collapse").sideNav("hide");
+      };
 
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-    ga('create', 'UA-101140725-2', 'auto');
-    ga('send', 'pageview');
-  </script>
+      ga("create", "UA-101140725-2", "auto");
+      ga("send", "pageview");
+    </script>
   </body>
 </html>
